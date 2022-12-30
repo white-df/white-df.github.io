@@ -788,6 +788,15 @@ section .container {
   color: #fff;
 }
 
+.services .icon-box a i {
+  color: #040404;
+  font-size: 20px;
+}
+
+.services .icon-box:hover a i {
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1367,4 +1376,10 @@ section .container {
 } */
 .credits a:hover {
   color: #040404;
+}
+
+.credits p {
+  font-size: 9px;
+  color: #565656;
+  margin: 0;
 }
