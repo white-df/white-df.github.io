@@ -1386,7 +1386,7 @@ section .container {
 
 /* Publications (Research page) */
 .publications-wrap {
-  max-width: 980px;
+  max-width: none;
   margin-left: auto;
   margin-right: auto;
 }
