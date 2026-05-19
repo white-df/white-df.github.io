@@ -805,11 +805,12 @@ section .container {
 }
 
 .artworks-intro {
-  max-width: 760px;
+  max-width: none;
   margin: 0 0 18px 0;
   font-size: 14px;
   line-height: 1.7;
   color: rgba(4, 4, 4, 0.72);
+  white-space: nowrap;
 }
 
 .artwork-item {
@@ -872,6 +873,10 @@ section .container {
 }
 
 @media (max-width: 991px) {
+  .artworks-intro {
+    white-space: normal;
+  }
+
   .artwork-image-placeholder {
     min-height: 220px;
   }
